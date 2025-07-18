@@ -1,0 +1,59 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  background-color: black;
+  height: 15vh;
+  width: 80vw;
+}
+#logo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+}
+#logo h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 15px !important;
+  margin: 0;
+  margin-right: 29vw;
+}
+#logo p {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 3px;
+  font-size: 6px !important;
+  color: gray;
+  margin-right: 29vw !important;
+}
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94vw;
+  padding: 0 40px;
+  background-color: black;
+  height: 15vh;
+}
+
+
+#Menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-right: 12vw;
+}
+#Menu a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.3s ease;
+   font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+
