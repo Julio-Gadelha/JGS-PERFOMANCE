@@ -199,3 +199,85 @@ body {
   text-align: justify;
   word-spacing: 2px;
 }
+#Serviços {
+  background-color: rgb(14, 13, 13);
+  color: white;
+  padding: 70px 0;
+  min-height: 120vh;
+}
+#texttittle h1 {
+  margin-right: 6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  font-size: 19px;
+  color: #bbafaf;
+  text-align: center;
+}
+#subititulo h3 {
+  margin-top: 4vh;
+  font-size: 13px;
+  margin-left: 20vw;
+  font-family: "Poppins", sans-serif !important;
+  text-align: justify;
+  word-spacing: 2px;
+  max-width: 800px;
+  color: gray;
+}
+#foto2 img{
+  margin-top: 10vh;
+  margin-left: 7vw;
+  width:18vw;
+  height: 23vh;
+  filter: brightness(40%);
+}
+#foto2 h5{
+  margin-top: 1vh;
+  margin-left: 10vw;
+  font-size: 12px;
+  color: gray;
+  font-family: "Poppins", sans-serif !important;
+}
+#foto3 img{
+  margin-top: -37vh;
+  margin-left: 29vw;
+  width:18vw;
+  height: 23.5vh;
+  filter: brightness(40%);
+}
+#foto3 h5{
+  margin-top: -7vh;
+  margin-left: 31.5vw;
+  font-size: 12px;
+  color: gray;
+  font-family: "Poppins", sans-serif !important;
+}
+#foto4 img{
+  margin-top: -39.5vh;
+  margin-left: 51vw;
+  width:18vw;
+  height: 23.5vh;
+  filter: brightness(40%);
+}
+#foto4 h5{
+  margin-top: -8vh;
+  margin-left: 54.5vw;
+  font-size: 12px;
+  color: gray;
+  font-family: "Poppins", sans-serif !important;
+}
+#foto5 img{
+  margin-top: -42vh;
+  margin-left: 73vw;
+  width:18vw;
+  height: 23.5vh;
+  filter: brightness(40%);
+}
+#foto5 h5{
+  margin-top: -9vh;
+  margin-left: 75.5vw;
+  font-size: 12px;
+  color: gray;
+  font-family: "Poppins", sans-serif !important;
+}
