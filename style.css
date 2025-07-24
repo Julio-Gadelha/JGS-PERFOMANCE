@@ -206,6 +206,7 @@ body {
   min-height: 120vh;
 }
 #texttittle h1 {
+  margin-top: 15vh;
   margin-right: 6vw;
   display: flex;
   justify-content: center;
@@ -224,6 +225,7 @@ body {
   word-spacing: 2px;
   max-width: 800px;
   color: gray;
+  margin-bottom: 8vh;
 }
 #foto2 img {
   margin-top: 10vh;
@@ -287,6 +289,8 @@ body {
   align-items: center;
   font-family: "Orbitron", sans-serif;
   color: #bbafaf;
+  margin-top: 28vh;
+  margin-bottom: 7vh;
 }
 #Cliente {
   margin-top: -40vh;
