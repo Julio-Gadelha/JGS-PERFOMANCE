@@ -96,7 +96,7 @@ body {
 }
 #carrosp {
   margin-top: -20vh;
-  background-color: rgb(14, 13, 13);
+  background-color: rgb(3, 3, 3);
   color: white;
   padding: 70px 0;
   min-height: 120vh;
@@ -200,7 +200,7 @@ body {
   word-spacing: 2px;
 }
 #Serviços {
-  background-color: rgb(14, 13, 13);
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 70px 0;
   min-height: 120vh;
@@ -225,59 +225,101 @@ body {
   max-width: 800px;
   color: gray;
 }
-#foto2 img{
+#foto2 img {
   margin-top: 10vh;
   margin-left: 7vw;
-  width:18vw;
+  width: 18vw;
   height: 23vh;
   filter: brightness(40%);
 }
-#foto2 h5{
+#foto2 h5 {
   margin-top: 1vh;
   margin-left: 10vw;
   font-size: 12px;
   color: gray;
   font-family: "Poppins", sans-serif !important;
 }
-#foto3 img{
+#foto3 img {
   margin-top: -37vh;
   margin-left: 29vw;
-  width:18vw;
+  width: 18vw;
   height: 23.5vh;
   filter: brightness(40%);
 }
-#foto3 h5{
+#foto3 h5 {
   margin-top: -7vh;
   margin-left: 31.5vw;
   font-size: 12px;
   color: gray;
   font-family: "Poppins", sans-serif !important;
 }
-#foto4 img{
+#foto4 img {
   margin-top: -39.5vh;
   margin-left: 51vw;
-  width:18vw;
+  width: 18vw;
   height: 23.5vh;
   filter: brightness(40%);
 }
-#foto4 h5{
+#foto4 h5 {
   margin-top: -8vh;
   margin-left: 54.5vw;
   font-size: 12px;
   color: gray;
   font-family: "Poppins", sans-serif !important;
 }
-#foto5 img{
+#foto5 img {
   margin-top: -42vh;
   margin-left: 73vw;
-  width:18vw;
+  width: 18vw;
   height: 23.5vh;
   filter: brightness(40%);
 }
-#foto5 h5{
+#foto5 h5 {
   margin-top: -9vh;
   margin-left: 75.5vw;
   font-size: 12px;
   color: gray;
   font-family: "Poppins", sans-serif !important;
+}
+#Nclientes h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: #bbafaf;
+}
+#Cliente {
+  margin-top: -40vh;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  padding: 70px 0;
+  min-height: 120vh;
+}
+#depoimentos h4 {
+  margin-left: 4vw;
+  margin-top: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #998c8c;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+#depoimentos h5{
+  font-size: 12px;
+  margin-top: -3vh;
+  margin-left: 34vh;
+  color: red;
+}
+#depoimentos img{
+  margin-top: -8vh;
+  margin-left: 24vw;
+  height: 5vh;
+  width: 3vw;
+  border-radius: 50%;
+  
 }
