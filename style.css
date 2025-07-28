@@ -384,22 +384,63 @@ body {
   margin-top: -10vh;
   background-color: rgb(218, 0, 0);
   color: white;
-  padding: 70px 0;
-  min-height: 60vh;
+  padding: 35px 0 0.5px 0;
+
 }
 #encontrar h1{
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif ;
-  font-size: 25px;
+  font-size: 28px;
   margin-top: -2vh;
-  margin-right: 68vw;
+  margin-right: 65vw;
 }
 #atendimento h3{
   display: flex;
- margin-left: 5.8vw;
+ margin-left: 6vw;
  margin-top: 3vh;
  font-family:"Poppins",sans-serif;
   font-size: 17px;
+}#horarios h5{
+  margin-top: 2vh;
+  margin-left: 5.7vw;
+  font-size: 15px;
+  color: gray;
+}
+#numeros h5{
+  color: gray;
+  font-size: 14px;
+  margin-left: 6vw;
+  font-family:"Poppins",sans-serif ;
+}
+#endereco h1{
+  margin-top: -13vh;
+  margin-left: 21vw;
+  font-size: 17px;
+}
+#location i{
+  margin-left: 21vw;
+}
+#rua h4{
+  margin-top: -3vh;
+  font-size: 14px;
+  margin-left: 23vw;
+  color: gray;
+}
+#number i{
+  margin-top: 3vh;
+  margin-left: 21.2vw;
+}
+#telefone h5{
+  margin-top: -3vh;
+  margin-left: 24vw;
+  font-size: 14px;
+  color: gray;
+}
+#mapa img{
+  margin-top: -27.3vh;
+  margin-left: 53.9vw;
+  height: 48vh;
+  width:45vw ;
 }
