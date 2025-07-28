@@ -106,6 +106,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Orbitron", sans-serif;
+  margin-bottom: 12vh;
   font-size: 19px;
   color: #bbafaf;
   text-align: center;
@@ -118,7 +119,7 @@ body {
   margin-right: 60vw;
 }
 #cards p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 3px;
 }
@@ -130,7 +131,7 @@ body {
   margin-right: 2vw;
 }
 #card2 p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 3px;
 }
@@ -142,47 +143,47 @@ body {
   margin-left: 60vw;
 }
 #card3 p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 3px;
 }
 #card4 {
   justify-self: center;
   align-items: center;
-  margin-top: 9vh;
+  margin-top: 16vh;
   margin-right: 60vw;
 }
 #card4 p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 3px;
 }
 #card4 a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #card3 a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #card2 a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #cards a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #card5 {
   display: flex;
   justify-self: center;
   align-items: center;
-  margin-top: -76vh;
+  margin-top: -75vh;
   margin-right: 2vw;
 }
 #card5 p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 2px;
 }
 #card5 a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #card6 {
   display: flex;
@@ -192,10 +193,10 @@ body {
   margin-left: 60vw;
 }
 #card6 a {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #card6 p {
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 2px;
 }
@@ -220,7 +221,7 @@ body {
   margin-top: 4vh;
   font-size: 13px;
   margin-left: 20vw;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
   text-align: justify;
   word-spacing: 2px;
   max-width: 800px;
@@ -239,7 +240,7 @@ body {
   margin-left: 10vw;
   font-size: 12px;
   color: gray;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #foto3 img {
   margin-top: -37vh;
@@ -253,7 +254,7 @@ body {
   margin-left: 31.5vw;
   font-size: 12px;
   color: gray;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #foto4 img {
   margin-top: -39.5vh;
@@ -267,7 +268,7 @@ body {
   margin-left: 54.5vw;
   font-size: 12px;
   color: gray;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #foto5 img {
   margin-top: -42vh;
@@ -281,7 +282,7 @@ body {
   margin-left: 75.5vw;
   font-size: 12px;
   color: gray;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif ;
 }
 #Nclientes h1 {
   display: flex;
@@ -354,7 +355,7 @@ body {
   border-radius: 50%;
 }
 #depoimentos3 h4 {
-  margin-left:65vw;
+  margin-left: 65vw;
   margin-top: -22vh;
   display: flex;
   justify-content: center;
@@ -380,67 +381,168 @@ body {
   width: 3vw;
   border-radius: 50%;
 }
-#lastcontainer{
+#lastcontainer {
   margin-top: -10vh;
   background-color: rgb(218, 0, 0);
   color: white;
-  padding: 35px 0 0.5px 0;
-
+  padding: 35px 0 1px 0;
 }
-#encontrar h1{
+#encontrar h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif ;
+  font-family: "Poppins", sans-serif;
   font-size: 28px;
   margin-top: -2vh;
   margin-right: 65vw;
 }
-#atendimento h3{
+#atendimento h3 {
   display: flex;
- margin-left: 6vw;
- margin-top: 3vh;
- font-family:"Poppins",sans-serif;
+  margin-left: 6vw;
+  margin-top: 3vh;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
-}#horarios h5{
+}
+#horarios h5 {
   margin-top: 2vh;
   margin-left: 5.7vw;
   font-size: 15px;
   color: gray;
 }
-#numeros h5{
+#numeros h5 {
   color: gray;
   font-size: 14px;
   margin-left: 6vw;
-  font-family:"Poppins",sans-serif ;
+  font-family: "Poppins", sans-serif;
 }
-#endereco h1{
+#endereco h1 {
   margin-top: -13vh;
   margin-left: 21vw;
   font-size: 17px;
 }
-#location i{
+#location i {
   margin-left: 21vw;
 }
-#rua h4{
+#rua h4 {
   margin-top: -3vh;
   font-size: 14px;
   margin-left: 23vw;
   color: gray;
 }
-#number i{
+#number i {
   margin-top: 3vh;
   margin-left: 21.2vw;
 }
-#telefone h5{
+#telefone h5 {
   margin-top: -3vh;
   margin-left: 24vw;
   font-size: 14px;
   color: gray;
 }
-#mapa img{
+#mapa img {
   margin-top: -27.3vh;
   margin-left: 53.9vw;
-  height: 48vh;
-  width:45vw ;
+  height: 50vh;
+  width: 45vw;
+  position: relative;
+}
+@media (max-width: 768px) {
+  #header-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  #logo h1,
+  #logo p {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #Menu {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  #Performance h1,
+  #sobre h3 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+  }
+
+  #foto img {
+    width: 80vw;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    margin-top: 20px;
+  }
+
+  #cards,
+  #card2,
+  #card3,
+  #card4,
+  #card5,
+  #card6 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .card {
+    width: 90% !important;
+    margin: 10px 0;
+  }
+
+  #foto2 img,
+  #foto3 img,
+  #foto4 img,
+  #foto5 img {
+    width: 90vw;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  #foto2 h5,
+  #foto3 h5,
+  #foto4 h5,
+  #foto5 h5 {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  #depoimentos,
+  #depoimentos2,
+  #depoimentos3 {
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  #depoimentos h4,
+  #depoimentos2 h4,
+  #depoimentos3 h4 {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  #depoimentos img,
+  #depoimentos2 img,
+  #depoimentos3 img {
+    margin: 10px auto;
+    display: block;
+    width: 15vw;
+    height: auto;
+  }
+
+  #mapa img {
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0 0;
+  }
 }
