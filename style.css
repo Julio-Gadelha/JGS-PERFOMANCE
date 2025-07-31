@@ -1,5 +1,476 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  #logo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30 0px;
+  }
+  #logo h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px !important;
+    margin: 0;
+    margin-right: 29vw;
+  }
+  #logo p {
+    font-family: "Orbitron", sans-serif;
+    letter-spacing: 3px;
+    font-size: 6px !important;
+    color: gray;
+    margin-right: 29vw !important;
+  }
+  #header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 40px;
+    background-color: black;
+    height: 17vh;
+  }
+  #Menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 3vh;
+  }
+  #Menu a {
+    left: 90vw;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+  }
+  #Performance h1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    color: #050505;
+    margin-left: 14vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+  #sobre h3 {
+    margin-left: 4vw;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    max-width: 500px;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  #foto img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 63vw;
+    margin-top: -27vh;
+    height: 25vh;
+    width: 35vw !important;
+    filter: brightness(70%);
+    border-radius: 1%;
+  }
+  #Introdution {
+    background-color: rgb(253, 248, 248);
+    color: white;
+    padding: 40px 0;
+    min-height: 100vh;
+  }
+  #carrosp {
+    margin-top: -60vh;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding: 70px 0;
+    min-height: 120vh;
+  }
+  #Carros h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    margin-bottom: 12vh;
+    font-size: 19px;
+    color: #bbafaf;
+    text-align: center;
+  }
+  #cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6vh;
+    margin-right: 65vw;
+  }
+  #cards p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    max-width: 500px;
+    word-spacing: 3px;
+  }
+  #card2 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -45vh;
+    margin-right: 1vw;
+  }
+  #card2 p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 3px;
+  }
+  #card3 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -45vh;
+    margin-left: 63vw;
+  }
+
+  #card3 p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 3px;
+  }
+  #card4 {
+    justify-self: center;
+    align-items: center;
+    margin-top: 6vh;
+    margin-right: 65vw;
+  }
+  #card4 p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 3px;
+  }
+  #card4 a {
+    font-family: "Poppins", sans-serif;
+  }
+  #card3 a {
+    font-family: "Poppins", sans-serif;
+  }
+  #card2 a {
+    font-family: "Poppins", sans-serif;
+  }
+  #cards a {
+    font-family: "Poppins", sans-serif;
+  }
+  #card5 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -49.5vh;
+    margin-left: -3vw;
+  }
+  #card5 p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 2px;
+    max-width: 500px;
+  }
+  #card5 a {
+    font-family: "Poppins", sans-serif;
+  }
+  #card6 {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: -50vh;
+    margin-left: 60vw;
+  }
+  #card6 a {
+    font-family: "Poppins", sans-serif;
+  }
+  #card6 p {
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 2px;
+    max-width: 500px;
+  }
+  #Serviços {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 70px 0;
+    min-height: 120vh;
+  }
+  #texttittle h1 {
+    margin-top: -3vh;
+    margin-right: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 19px;
+    color: #bbafaf;
+    text-align: center;
+  }
+  #subititulo h3 {
+    margin-top: 4vh;
+    font-size: 12px;
+    margin-left: 17vw;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    word-spacing: 2px;
+    max-width: 700px;
+    color: gray;
+    margin-bottom: 8vh;
+  }
+  #foto2 img {
+    margin-top: -1vh;
+    margin-left: 7vw;
+    width: 19vw;
+    height: 16vh;
+    filter: brightness(40%);
+  }
+  #foto2 h5 {
+    margin-top: 1vh;
+    margin-left: 10vw;
+    font-size: 12px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+  }
+  #foto3 img {
+    margin-top: -25vh;
+    margin-left: 29vw;
+    width: 19vw;
+    height: 16vh;
+    filter: brightness(40%);
+  }
+  #foto3 h5 {
+    margin-top: -4.5vh;
+    margin-left: 30vw;
+    font-size: 12px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+  }
+  #foto4 img {
+    margin-top: -28vh;
+    margin-left: 52vw;
+    width: 19vw;
+    height: 16vh;
+    filter: brightness(40%);
+  }
+  #foto4 h5 {
+    margin-top: -5.5vh;
+    margin-left: 55vw;
+    font-size: 12px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+  }
+  #foto5 img {
+    margin-top: -30vh;
+    margin-left: 75vw;
+    width: 19vw;
+    height: 16vh;
+    filter: brightness(40%);
+  }
+  #foto5 h5 {
+    margin-top: -6.5vh;
+    margin-left: 76.5vw;
+    font-size: 12px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+  }
+  #Nclientes h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    color: #bbafaf;
+    margin-top: -28vh;
+    margin-bottom: 7vh;
+  }
+  #Cliente {
+    margin-top: -40vh;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    padding: 70px 0;
+    min-height: 50vh;
+  }
+  #depoimentos h4 {
+    margin-left: 2vw;
+    margin-top: -1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #998c8c;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  #depoimentos h5 {
+    font-size: 12px;
+    margin-top: -2.5vh;
+    margin-left: 18vw;
+    color: red;
+  }
+  #depoimentos img {
+    margin-top: -5vh;
+    margin-left: 28vw;
+    height: 3.5vh;
+    width: 3vw;
+    border-radius: 50%;
+  }
+  #depoimentos2 h4 {
+    margin-left: 35vw;
+    margin-top: -12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #998c8c;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  #depoimentos2 h5 {
+    font-size: 12px;
+    margin-top: -2vh;
+    margin-left: 52.5vw;
+    color: red;
+  }
+  #depoimentos2 img {
+    margin-top: -6vh;
+    margin-left: 61.5vw;
+    height: 3.5vh;
+    width: 3vw;
+    border-radius: 50%;
+  }
+  #depoimentos3 h4 {
+    margin-left: 68vw;
+    margin-top: -22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #998c8c;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  #depoimentos3 h4 {
+    margin-left: 67vw;
+    margin-top: -14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color: #998c8c;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  #depoimentos3 h5 {
+    font-size: 12px;
+    margin-top: -2vh;
+    margin-left: 85vw;
+    color: red;
+  }
+  #depoimentos3 img {
+    margin-top: -6vh;
+    margin-left: 94vw;
+    height: 3.5vh;
+    width: 3vw;
+    border-radius: 50%;
+  }
+  #lastcontainer {
+    margin-top: -30vh;
+    background-color: rgb(218, 0, 0);
+    color: white;
+    padding: 35px 0 1px 0;
+    min-height: 40vh;
+  }
+  #encontrar h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    margin-top: -2vh;
+    margin-right: 50vw;
+  }
+  #atendimento h3 {
+    display: flex;
+    margin-left: 11vw;
+    margin-top: 3vh;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+  }
+  #horarios h5 {
+    margin-top: vh;
+    margin-left: 11vw;
+    font-size: 15px;
+    color: gray;
+  }
+  #numeros h5 {
+    margin-top: 0.5vh;
+    color: gray;
+    font-size: 14px;
+    margin-left: 11vw;
+    font-family: "Poppins", sans-serif;
+  }
+  #endereco h1 {
+  margin-top: -13vh;
+  margin-left: 21vw;
+  font-size: 17px;
+}
+#endereco h1 {
+  margin-top: -8vh;
+  margin-left: 31vw;
+  font-size: 17px;
+}
+#location i {
+  margin-left: 31vw;
+}
+#rua h4 {
+  margin-top: -1.5vh;
+  font-size: 14px;
+  margin-left: 34vw;
+  color: gray;
+}
+#number i {
+  margin-top: -3vh;
+  margin-left: 31vw;
+}
+#telefone h5 {
+  margin-top: -2vh;
+  margin-left: 34vw;
+  font-size: 14px;
+  color: gray;
+}
+#mapa img {
+  margin-top: -16.3vh;
+  margin-left: 54vw;
+  height: 40vh;
+  width: 46vw;
+  position: relative;
+}
+}
 * {
   margin: 0;
   padding: 0;
@@ -445,104 +916,4 @@ body {
   height: 50vh;
   width: 45vw;
   position: relative;
-}
-@media (max-width: 768px) {
-  #header-container {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-  }
-
-  #logo h1,
-  #logo p {
-    margin-right: 0;
-    text-align: center;
-  }
-
-  #Menu {
-    flex-direction: column;
-    gap: 10px;
-    margin-right: 0;
-    margin-top: 10px;
-  }
-
-  #Performance h1,
-  #sobre h3 {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    text-align: center;
-  }
-
-  #foto img {
-    width: 80vw;
-    height: auto;
-    margin: 20px auto;
-    display: block;
-    margin-top: 20px;
-  }
-
-  #cards,
-  #card2,
-  #card3,
-  #card4,
-  #card5,
-  #card6 {
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 0;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .card {
-    width: 90% !important;
-    margin: 10px 0;
-  }
-
-  #foto2 img,
-  #foto3 img,
-  #foto4 img,
-  #foto5 img {
-    width: 90vw;
-    height: auto;
-    margin: 10px auto;
-    display: block;
-  }
-
-  #foto2 h5,
-  #foto3 h5,
-  #foto4 h5,
-  #foto5 h5 {
-    text-align: center;
-    margin: 5px 0;
-  }
-
-  #depoimentos,
-  #depoimentos2,
-  #depoimentos3 {
-    margin: 30px auto;
-    text-align: center;
-  }
-
-  #depoimentos h4,
-  #depoimentos2 h4,
-  #depoimentos3 h4 {
-    margin: 0 auto;
-    max-width: 90%;
-  }
-
-  #depoimentos img,
-  #depoimentos2 img,
-  #depoimentos3 img {
-    margin: 10px auto;
-    display: block;
-    width: 15vw;
-    height: auto;
-  }
-
-  #mapa img {
-    width: 100%;
-    height: auto;
-    margin: 30px 0 0 0;
-  }
 }
